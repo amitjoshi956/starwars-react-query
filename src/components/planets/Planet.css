@@ -1,0 +1,24 @@
+.Planet-card {
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 40rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #1b1b1b;
+  border-radius: 1rem;
+}
+
+.Planet-card:hover {
+  background-color: #1d1d1d;
+}
+
+.Planet-card h3 {
+  color: #ffff57;
+}
+
+.Planet-card p {
+  margin: 0.25rem;
+}

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/navbar";
-import People from "./components/people";
-import Planets from "./components/planets";
+import { People } from "./components/people";
+import { Planets } from "./components/planets";
 
 const App = () => {
   const [page, setPage] = useState<string>("planets");

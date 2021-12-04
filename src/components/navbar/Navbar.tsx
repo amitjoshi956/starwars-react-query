@@ -1,4 +1,4 @@
-import React from "react";
+import { FC } from "react";
 
 import "./Navbar.css";
 
@@ -6,7 +6,7 @@ type NavbarProps = {
   setPage: (page: string) => void;
 };
 
-const Navbar: React.FC<NavbarProps> = ({ setPage }) => {
+const Navbar: FC<NavbarProps> = ({ setPage }) => {
   return (
     <nav>
       <button className="Navbar-btn" onClick={() => setPage("planets")}>
