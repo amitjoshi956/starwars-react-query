@@ -1,0 +1,14 @@
+.Navbar-btn {
+  padding: 0.75rem 1rem;
+  margin: 0.25rem 0.75rem;
+  border-radius: 1.25rem;
+  border: 1px solid #ddd;
+  outline: none;
+  background-color: transparent;
+  color: #ddd;
+}
+
+.Navbar-btn:hover {
+  color: #fff;
+  border-color: #fff;
+}

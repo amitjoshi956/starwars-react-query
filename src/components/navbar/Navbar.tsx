@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Navbar.css";
+
 type NavbarProps = {
   setPage: (page: string) => void;
 };
@@ -7,8 +9,12 @@ type NavbarProps = {
 const Navbar: React.FC<NavbarProps> = ({ setPage }) => {
   return (
     <nav>
-      <button onClick={() => setPage("planets")}>Planets</button>
-      <button onClick={() => setPage("people")}>People</button>
+      <button className="Navbar-btn" onClick={() => setPage("planets")}>
+        Planets
+      </button>
+      <button className="Navbar-btn" onClick={() => setPage("people")}>
+        People
+      </button>
     </nav>
   );
 };

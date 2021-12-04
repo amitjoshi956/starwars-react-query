@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Star Wars</h1>
+      <h1 className="App-title">Star Wars</h1>
       <Navbar setPage={setPage} />
       <div className="content">
         {page === "planets" ? <Planets /> : <People />}
